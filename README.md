@@ -18,24 +18,12 @@ Project Root/
             └── ...
 ```
 
-## For Developers (Building)
+## For Using 
 
-1. Run the `build_exe.bat` file
+1. Run the `build_with_py311.bat` file
 2. Wait for the process to complete
-3. The executable will be created in the `dist` folder as `SimulatorApp.exe`
+3. The executable will be created in the root folder 
 
-## For Users (Running)
-
-1. Place the `SimulatorApp.exe` in the correct location in your directory structure
-2. Ensure the Test/Simulation/Input directory exists with your test files
-3. Run the executable
-
-## Path Resolution
-
-The application will look for test files in this order:
-1. Standard path: `../../../Test/Simulation/Input`
-2. The same relative path from the executable location
-3. A `Test/Simulation/Input` directory in the same folder as the executable
 
 It is strongly recommended to maintain the standard directory structure.
 
